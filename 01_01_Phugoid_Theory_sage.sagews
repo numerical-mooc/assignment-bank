@@ -197,10 +197,10 @@ eq_g.derivative(z)
 
 ︡6c1d3b50-2ab2-482c-8a55-3bdf57d98bfb︡{"tex":{"tex":"g\\left(z\\right) = \\sqrt{z} \\cos\\left(\\theta\\left(z\\right)\\right)","display":true}}︡{"tex":{"tex":"D[0]\\left(g\\right)\\left(z\\right) = -\\sqrt{z} \\sin\\left(\\theta\\left(z\\right)\\right) D[0]\\left(\\theta\\right)\\left(z\\right) + \\frac{\\cos\\left(\\theta\\left(z\\right)\\right)}{2 \\, \\sqrt{z}}","display":true}}︡
 ︠9ff765b2-cbaf-4df9-9662-2005aeb2cb2d︠
-### Next I want to redo steps (10)-(14) using differential equations
-### instead of infinitesimals. Sage knows the chain rule. Let's use it.
+### I want to redo steps (10)-(14) using differential equations
+### instead of infinitesimals and use the chain rule.
 
-### to be continued...
+### To be continued.
 ︡e68c4f6e-403f-431f-82a3-3220e2b19683︡
 ︠196db583-aff6-4235-b3cc-7c1e157c71c8︠
 
