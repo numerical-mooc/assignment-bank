@@ -15,5 +15,23 @@ Use a distinctive title for your notebook, and prepend the number of the Course 
 ### Notebook sectioning
 Use section headings and organize your writing and your code making the notebook easy to scan. Split code cells if they become too long, and add explanations of what the code is doing, as necessary.
 
+### Notebook style
+Apply the numerical-mooc CSS style to your notebook by including the following code in a cell at the bottom of your notebook:
+
+```Python
+from IPython.core.display import HTML
+css_file = '../../styles/numericalmoocstyle.css'
+HTML(open(css_file, "r").read())
+```
+
+The path to `css_file` above assumes that your notebook is located *two* folders down from the root of the repository, e.g.
+
+```
+  assignment-bank/
+    assignments/
+      your-assignment/
+        your_notebook.ipynb
+```
+
 ### Copyright notice
 Remember to add your authorship on your contributions via a copyright notice somewhere (you of course retain copyright of all that you create). We encourage you to license your content under a Creative Commons license, for others to reuse. CC-BY 4.0 is recommended for your creative works, and MIT license for code: these are permissive, non-intrusive, liberal licenses that ensure you will get credit for your work while having the most impact.
