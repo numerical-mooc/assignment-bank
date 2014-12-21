@@ -10,13 +10,13 @@ Did you find a related problem that illustrates one of the concepts we discuss i
 ## Guidelines for contributors
 
 ### Notebook naming
-Use a distinctive title for your notebook, and prepend the number of the Course Module that it relates to, so that the list of files becomes easier to browse. For example: `01_pendulum_with_Euler.ipnb`
+Use a distinctive title for your notebook. (We're trying to sort out a good way to organize contributions. Stay tuned.)
 
 ### Notebook sectioning
 Use section headings and organize your writing and your code making the notebook easy to scan. Split code cells if they become too long, and add explanations of what the code is doing, as necessary.
 
 ### Notebook style
-Apply the numerical-mooc CSS style to your notebook by including the following code in a cell at the bottom of your notebook:
+You can apply the numerical-mooc CSS style to your notebook by including the following code in a cell at the bottom of your notebook (but check that the folder location works with your file, or modify as needed):
 
 ```Python
 from IPython.core.display import HTML
@@ -28,7 +28,7 @@ The path to `css_file` above assumes that your notebook is located *two* folders
 
 ```
   assignment-bank/
-    assignments/
+    assignments-folder/
       your-assignment/
         your_notebook.ipynb
 ```
