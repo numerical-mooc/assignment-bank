@@ -1,6 +1,1 @@
-
-LogisticLeapFrog/.ipynb_checkpoints/LogisticLeapFrog-checkpoint.ipynb
-
-01_Phugoid.Variations/.ipynb_checkpoints/01_PhugoidCartesian-checkpoint.ipynb
-
-.ipynb_checkpoints/01_Predator-Prey-Model-checkpoint.ipynb
+*.ipynb_checkpoints*
