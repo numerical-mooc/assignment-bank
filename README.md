@@ -1,16 +1,18 @@
 Numerical MOOC Assignment Bank
 ===============
 
-## Contribute alternative assignments for "Practical Numerical Methods with Python"
+ **Contribute alternative assignments for "Practical Numerical Methods with Python"!**
 
 In this course, we believe that what matters is what YOU do. The course content created by the instructors is just the skeleton, to which you have to add flesh and blood to bring it to life.
 
 Did you find a related problem that illustrates one of the concepts we discuss in the course? Did you write an alternative version of a code? Do you want to challenge your peers? Contribute here!
 
+###[Index of contributions](http://nbviewer.ipython.org/github/numerical-mooc/assignment-bank/blob/master/Lessons.and.Assignments/Index.ipynb)
+
 ## Guidelines for contributors
 
 ### Notebook naming
-Use a distinctive title for your notebook. (We're trying to sort out a good way to organize contributions. Stay tuned.)
+Use a distinctive title for your notebook and place it in its own folder, inside the 'Lessons.and.Assignments' directory.
 
 ### Notebook sectioning
 Use section headings and organize your writing and your code making the notebook easy to scan. Split code cells if they become too long, and add explanations of what the code is doing, as necessary.
@@ -28,10 +30,12 @@ The path to `css_file` above assumes that your notebook is located *two* folders
 
 ```
   assignment-bank/
-    assignments-folder/
-      your-assignment/
+    Lessons.and.Assignments/
+      your-assignment-folder/
         your_notebook.ipynb
 ```
+
+If you want to use your own style sheet, be sure to add the file in the 'styles' directory and include it as part of your PR.
 
 ### Copyright notice
 Remember to add your authorship on your contributions via a copyright notice somewhere (you of course retain copyright of all that you create). We encourage you to license your content under a Creative Commons license, for others to reuse. CC-BY 4.0 is recommended for your creative works, and MIT license for code: these are permissive, non-intrusive, liberal licenses that ensure you will get credit for your work while having the most impact.
