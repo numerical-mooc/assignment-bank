@@ -1,0 +1,1 @@
+This bonus notebook has the purpose of introducing to Atomic Force Microscopy (AFM) simulations in Tapping mode.  The notebook compares three different integration schemes (Euler, Verlet and Runge Kutta 4) and compares them in terms of accuracy to solve an ordinary differential equation that describes the motion of the probe in dynamic AFM.
